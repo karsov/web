@@ -17,7 +17,7 @@ which reminded me of this very interesting talk on having observability without 
 
 I recently found out about Dragonfly - a drop-in replacement for the Redis in-memory datastore
 which boasts greater performance, scalability and operational ease.
-You may want to check it at https://dragonflydb.io/
+You may want to check it at [https://dragonflydb.io/](https://dragonflydb.io/)
 
 📈 Grafana Labs announced the schedule for the upcoming GrafanaCON 2023.
 You can check it at [https://grafana.com/about/events/grafanacon/2023/](https://grafana.com/about/events/grafanacon/2023/)
