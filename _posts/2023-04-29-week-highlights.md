@@ -35,3 +35,7 @@ as a k8s diagnostics & security audit tool and as s quality gate was demonstrate
 📖 Lastly, for anyone interested in databases, a new “Build Your Own Database” book was released last week.
 Part I, dedicated to persistent KV stores and with code samples in #Golang, is freely available online. Check it out here:
 [https://build-your-own.org/blog/20230420_byodb_done/](https://build-your-own.org/blog/20230420_byodb_done/)
+
+
+**Bonus #Golang tip:** Don’t forget to use the built-in data race detector to catch difficult-to-debug memory corruption issues and inconsistent application behaviours. To enable it in your tests, simply add the “-race” flag to the “go test” command. You can catch even more issues if you build your binaries with enabled race detection. However, running in this mode significantly increases the memory usage and slows down the application execution, so you may not want to do this in production. To learn more about the race detector, check the Go docs:
+[https://go.dev/doc/articles/race_detector](https://go.dev/doc/articles/race_detector)
