@@ -1,6 +1,6 @@
 ---
 title: "The highlights of the past week"
-date: 2023-06-21
+date: 2023-07-23
 ---
 
 Although it’s already the vacation season, quite a few interesting news has emerged over the past two weeks.
